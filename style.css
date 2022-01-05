@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 246, 246);
+}
+
+.fexible-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.half-width {
+  width: 40%;
+}
+
+#image-side {
+  width: 300px;
+  height: 350px;
+}
+
+#text-side {
+  margin-top: 50px;
+}
+
+.btn {
+  background-color: rgb(236, 79, 79);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+header {
+  font-size: larger;
+  border-left: 3px solid rgb(236, 79, 79);
+  padding-left: 10px;
+}
+
+.color-header {
+  color: rgb(243, 192, 51);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.box {
+  width: 350px;
+  height: 400px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.box img {
+  width: 80px;
+}
+
+#misson {
+  background-color: aquamarine;
+}
+#visson {
+  background-color: rgb(199, 228, 73);
+}
+#goals {
+  background-color: rgb(112, 155, 247);
+}
+
+.section-three img {
+  width: 250px;
+  margin-left: -30px;
+}
+
+.section-three {
+  margin: 50px 0;
+  background-image: url(./images/shapes/shape-1.png);
+  background-position: left;
+  padding-left: 30px;
+}
+.backgroud-image {
+  background-repeat: no-repeat;
+  background-size: 200px;
+}
+.section-four {
+  margin: 50px 0;
+  height: 500px;
+  background-image: url(./images/shapes/shape-1.png);
+  background-size: 150px;
+  background-position: 98.8% 45%;
+}
+.section-four img {
+  width: 250px;
+  margin-left: 500px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+}
