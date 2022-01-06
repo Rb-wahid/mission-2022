@@ -1,102 +1,149 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: rgb(250, 246, 246);
+    margin: 0;
+    padding: 0;
+    background-color: rgb(239, 252, 247);
 }
 
 .fexible-container {
-  display: flex;
-  justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .half-width {
-  width: 40%;
+    width: 40%;
 }
 
-#image-side {
-  width: 300px;
-  height: 350px;
+#border-left {
+    border-left: 5px solid rgb(236, 79, 79);
+    padding-left: 10px;
 }
-
 #text-side {
-  margin-top: 50px;
+    margin: 70px 0;
 }
 
-.btn {
-  background-color: rgb(236, 79, 79);
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
+.big-header {
+    font-size: 45px;
+    font-weight: bold;
 }
 
-header {
-  font-size: larger;
-  border-left: 3px solid rgb(236, 79, 79);
-  padding-left: 10px;
+.margin-less {
+    margin: 0;
 }
 
 .color-header {
-  color: rgb(243, 192, 51);
+    color: orange;
+}
+
+.btn {
+    background-color: rgb(236, 79, 79);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.btn:hover {
+    font-size: 20.5px;
+    transition: 0.7s;
+}
+
+#image-side {
+    width: 350px;
+    height: 420px;
 }
 
 .text-center {
-  text-align: center;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 520;
+    text-align: justify;
+    color: rgb(58, 51, 41);
 }
 
 .box {
-  width: 350px;
-  height: 400px;
-  border-radius: 5px;
-  padding-left: 10px;
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    padding: 0 15px;
+}
+.box img {
+    width: 150px;
 }
 
-.box img {
-  width: 80px;
+.box h1 {
+    font-size: 40px;
 }
 
 #misson {
-  background-color: aquamarine;
+    background-color: rgb(222, 247, 237);
 }
 #visson {
-  background-color: rgb(199, 228, 73);
+    background-color: rgb(238, 245, 216);
 }
 #goals {
-  background-color: rgb(112, 155, 247);
-}
-
-.section-three img {
-  width: 250px;
-  margin-left: -30px;
+    background-color: rgb(227, 235, 252);
 }
 
 .section-three {
-  margin: 50px 0;
-  background-image: url(./images/shapes/shape-1.png);
-  background-position: left;
-  padding-left: 30px;
+    margin: 100px 0;
+    background-image: url(./images/shapes/shape-1.png);
+    background-position: left;
+    padding-left: 30px;
 }
+
+.section-three img {
+    width: 400px;
+    margin-left: -20px;
+}
+
 .backgroud-image {
-  background-repeat: no-repeat;
-  background-size: 200px;
+    background-repeat: no-repeat;
+    background-size: 250px;
 }
 .section-four {
-  margin: 50px 0;
-  height: 500px;
-  background-image: url(./images/shapes/shape-1.png);
-  background-size: 150px;
-  background-position: 98.8% 45%;
+    margin: 50px 0;
+    height: 500px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 200px;
+    background-position: 97% 93%;
 }
 .section-four img {
-  width: 250px;
-  margin-left: 500px;
+    width: 400px;
+    margin-left: 300px;
+}
+.contact-section {
+    height: 450px;
+    background-color: rgb(235, 247, 241);
+}
+.contact-section .half-width {
+    margin-top: 25px;
+}
+
+.input-area {
+    width: 400px;
+    padding: 15px 0;
+    margin: 10px 0;
+}
+
+label {
+    font-size: 20px;
+}
+.contact-section .btn {
+    margin: 10px 0 0 100px;
 }
 
 footer {
-  padding: 10px;
-  text-align: center;
-  color: aliceblue;
-  background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+}
+footer p {
+    color: aliceblue;
 }
